@@ -1,44 +1,47 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    background: #78737341;
+    background: #eacad0
+  }
+
+  .begginer {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #eacad0;
+    text-align: center;
   }
 
   .img {
-    height: 100%;
-    width: 100%;
+    max-width: auto;
+    height: auto;
   }
 
-  .card {
+  .container {
     margin-top: 30px;
     max-width: auto;
-    padding: 20px;
+    padding: auto;
     border-radius: 30px; 
     background-color: #eacad0;
     box-shadow: 5px 5px 20px #ff80a8;
   }
 
   h1 {
-margin-top: 30px;
-font-family: fantasy;
-color: #e2264d ;
+ text-align: center;
+ margin-top: 30px;
+ margin-left: 50px;
+ font-family: fantasy;
+ color: #e2264d ;
+ align-items: justify;
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .firstbutton {
-    margin-top: 40px;
+  .btn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
     font-family: fantasy;
-    font-size: large;
+    color:#e2264d;
+    background-color: #d9bbbb;
+    border-color: #d9bbbb;
   }
 
   [id='toggle-heart'] {
